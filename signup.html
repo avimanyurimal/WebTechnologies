@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        label:hover {
+            background-color: aquamarine;
+        }
+
+        input:focus {
+            background-color: blanchedalmond;
+        }
+
+        input [type="text"] {
+            background-color: black;
+        }
+    </style>
 </head>
+
 <body>
     <section>
-        <h1>Register form</h1>
         <form>
+            <h1>Register form</h1>
             <label>username</label>
             <input type="text" required>
             <br>
@@ -22,22 +37,25 @@
             <input type="number" required>
             <br>
             <br>
-            <input type="submit" value="submit">
+            <input class="btn" type="submit" value="submit">
             <button>Register</button>
             <p>Have an Account? <a href="https://www.facebook.com/">Login</a></p>
-            <table border="15px solid" cellspacing="5px" cellpadding="5px">
+            <tableborder="15pxsolid" cellspacing="5px" cellpadding="5px">
                 <tr>
                     <th>Education</th>
                     <th>Institute</th>
+                    <th>Student Name</th>
                 </tr>
                 <tr>
                     <td>+2</td>
                     <td>ram school ktm</td>
+                    <td>ganesh</td>
                 </tr>
-            </table>
+                </table>
 
 
         </form>
     </section>
 </body>
+
 </html>
